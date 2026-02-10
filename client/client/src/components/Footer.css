@@ -1,0 +1,19 @@
+.footer {
+  background-color: #1f2937; /* Dark gray */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+}
+
+.footer .social-link {
+  color: #facc15; /* Amber */
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.footer .social-link:hover {
+  text-decoration: underline;
+}

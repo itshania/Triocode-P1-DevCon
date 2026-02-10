@@ -1,0 +1,104 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #4c45d9db, #508cede5); /* only register page */
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+.register-page {
+  width: 100%;
+  padding: 20px;
+}
+
+.register-container {
+  background-color: white;
+  max-width: 450px;
+  margin: auto;
+  border-radius: 12px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.register-container:hover {
+  transform: translateY(-5px);
+}
+
+.register-title {
+  text-align: center;
+  color: #1f2937; /* Dark text */
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.register-subtitle {
+  text-align: center;
+  color: #4b5563; /* Gray */
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.register-form .form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.register-form input,
+.register-form select {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db; /* Light gray border */
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.register-form input:focus,
+.register-form select:focus {
+  border-color: #4f46e5;
+  outline: none;
+  box-shadow: 0 0 5px rgba(79,70,229,0.3);
+}
+
+.btn-register {
+  width: 100%;
+  background-color: #4f46e5;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-register:hover {
+  background-color: #4338ca;
+}
+
+@media (max-width: 500px) {
+  .register-container {
+    padding: 30px 20px;
+  }
+
+  .register-title {
+    font-size: 24px;
+  }
+
+  .register-subtitle {
+    font-size: 14px;
+  }
+}
