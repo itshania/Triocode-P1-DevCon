@@ -1,3 +1,19 @@
+Team name:TRICODE
+Member names: Syeda Hania batool
+              Abeera farhan
+              Maryam Fatima
+
+Problem Statement 1: Smart Event Management & 
+Networking Platform
+
+Technologies used:
+REACT
+NODE
+EXPRESS
+POSTGRES
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
